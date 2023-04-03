@@ -1,0 +1,28 @@
+.header-topics {
+    display: flex;
+}
+
+.header-main {
+    background-color: aqua;
+    padding: 15px 30px;
+    margin: 20px 0px;
+}
+
+
+@media (max-width:720px) {
+    .header-topics {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+}
+
+@media (min-width:720px) and (max-width:1080px) {
+    .header-topics {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+
+    }
+}

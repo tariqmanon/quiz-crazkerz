@@ -1,0 +1,18 @@
+.topic {
+    margin: 10px;
+    padding: 15px;
+
+}
+
+.card-img-top {
+    background-color: aliceblue;
+}
+
+.quiz-btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.quiz-btn a:hover {
+    color: orangered;
+}
