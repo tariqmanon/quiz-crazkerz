@@ -9,7 +9,8 @@ To get started with the project, follow these steps:
 
 5.The app is built using React and utilizes several other libraries, including Redux for state management and Axios for making API calls. The quiz questions and answers are stored in a JSON file, which can be easily edited or replaced to create new quizzes.<br>
 
-6.We hope you enjoy using this project as much as we enjoyed building it. Happy quizzing!
+6.We hope you enjoy using this project as much as we enjoyed building it. 
+<br>Happy quizzing!
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
