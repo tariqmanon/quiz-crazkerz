@@ -6,8 +6,8 @@ const Statistics = () => {
     const states = useLoaderData().data;
     console.log(states[0].total)
     return (
-        <div>
-            <h2>This is statistics Page</h2>
+        <div className='container'>
+            <h2>Our Statistics</h2>
 
             {
                 states.map(datas => <Chart
