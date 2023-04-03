@@ -5,6 +5,7 @@ import Statistics from './components/Statistics/Statistics';
 import Blog from './components/Blog/Blog';
 import Topics from './components/Topics/Topics';
 import TopicDetails from './components/TopicDetails/TopicDetails';
+import Error from './components/Error/Error';
 
 
 function App() {
@@ -44,6 +45,10 @@ function App() {
         {
           path: '/blog',
           element: <Blog />
+        },
+        {
+          path: '*',
+          element: <Error />
         }
       ]
     }
