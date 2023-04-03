@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
     return (
         <div className='container'>
-            <h2>This is Blog Page</h2>
+            <h2>Our Blogs</h2>
             <div className='blog-content'>
                 <h4>Q1:what is purpose of react router</h4>
                 <p><small>Ans: React Router is a popular routing library for React applications. It enables developers to manage the application's navigation and routing declaratively by mapping URLs to components. Its purpose is to provide a seamless user experience by enabling users to move between different views or pages within a single-page application (SPA) without having to refresh the page.
